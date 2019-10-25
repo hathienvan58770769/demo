@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>{{ title }}</h2>
+    <hr>
+
+    <nav class="navbar navbar-inverse">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="nav navbar-nav">
+            <li routerLinkActive="active" class="active">
+                <a [routerLink]="['/employees']">Employees</a>
+            </li>
+            <li routerLinkActive="active">
+                <a [routerLink]="['/add']">Add</a>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+
+<router-outlet>
+</router-outlet>
